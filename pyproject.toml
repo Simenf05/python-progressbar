@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "python-progressbar-simenf05"
+version = "0.0.1"
+authors = [
+  { name="Simen Fritsvold", email="sifra002@gmail.com" },
+]
+description = "A small and easy progressbar in python."
+readme = "README.md"
+requires-python = ">=3.10.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/simenf05/python-progressbar"
+"Bug Tracker" = "https://github.com/simenf05/python-progressbar/issues"
